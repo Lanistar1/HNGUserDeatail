@@ -27,7 +27,7 @@ export default function App() {
       <StatusBar style="auto" />
       <TouchableOpacity style={styles.button}
         onPress={() => {
-          const url = 'https://www.facebook.com';
+          const url = 'https://github.com/Lanistar1/HNGUserDeatail/tree/newLanistar';
           openWebLink(url);
         }}
         >
@@ -53,14 +53,14 @@ const styles = StyleSheet.create({
   image: {
     width: 200,
     height: 200,
-    borderWidth: 2,
+    borderWidth: 4,
   },
   button: {
     borderColor: '#fff',
     borderCurve: 5,
     borderWidth: 1,
-    marginTop: 10,
-    paddingHorizontal: 15,
+    marginTop: 15,
+    paddingHorizontal: 16,
     paddingVertical: 5
   },
   subText: {
